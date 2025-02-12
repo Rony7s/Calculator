@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- this is a costom stylesheet link -->
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
     <title>Calculator</title>
 </head>
 <body>
     <div class="cal_area">
-        <h1>First simple calculator !</h1>
+        <h1>Simple Calculator!</h1>
         <table>
             <div class="display">
                 <tr>
@@ -23,8 +21,8 @@
                     <td onclick="cal(7)">7</td>
                     <td onclick="cal(8)">8</td>
                     <td onclick="cal(9)">9</td>
-                    <td onclick="det(1)">DET</td>
-                    <td onclick="ac(1)">AC</td>
+                    <td onclick="det()">DET</td>
+                    <td onclick="ac()">AC</td>
                 </tr>
                 <tr>
                     <td onclick="cal(4)">4</td>
@@ -45,10 +43,11 @@
                     <td onclick="cal('.')">.</td>
                     <td onclick="cal('(')">(</td>
                     <td onclick="cal(')')">)</td>
-                    <td onclick="equ(1)">=</td>
+                    <td onclick="equ()">=</td>
                 </tr>
             </div>
         </table>
     </div>
+    <script src="javascript.js"></script>
 </body>
 </html>

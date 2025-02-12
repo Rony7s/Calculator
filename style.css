@@ -1,37 +1,49 @@
-*{
-    margin:0;
-    padding:0;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
-.cal_area{
-    text-align: center;
+
+.cal_area {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
-.cal_area h1{
-    font-size: 50px;
-    line-height: 70px;
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
 }
-table{
-    background: #ddd;
-    width: 322px;
-    margin: 0 auto;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
-table, th, td {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding:5px;
-    text-align: center;
-    font-size: 25px;
-  }
-  th{
-    height: 50px;
-    font-size: 40px;
-    text-align: end;
-    background: white;
-  }
-  td{
-    height: 50px;
-    width: 50px;
-  }
-  td:hover{
-    background: white;
-    color: green;
-  }
+
+td, th {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #f9f9f9;
+}
+
+td:hover {
+  background-color: #ddd;
+}
+
+#display_x {
+  background-color: #eee;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
