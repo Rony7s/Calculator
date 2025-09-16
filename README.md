@@ -52,7 +52,7 @@ It supports basic arithmetic operations, parentheses, delete (DET), and clear (A
 ---
 
 ## 🌐 Live Demo
-👉 [Click Here](https://rony7s.github.io/calculator/)
+👉 [Click Here](https://rony7s.github.io/Calculator/)
 ---
 
 ## 🤝 Contributing
@@ -74,3 +74,4 @@ For any questions or suggestions, please reach out!
 - 👤 Rony Ahmmed  
 - 🌐 GitHub: [@Rony7s](https://github.com/Rony7s)  
 - 📧 Email: **bdu.rony@gmail.com**
+
