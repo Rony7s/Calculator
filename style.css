@@ -1,49 +1,55 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+}
+body { 
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
 }
 
 .cal_area {
-  background-color: #fff;
-  padding: 20px;
+  background-color: #dad4d4;
+  width: 320px;
+  margin: 50px auto;
+  padding: 10px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 h1 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
+  font-size: 20px;
+  padding: 10px;
+  color: #de3f3f;
+  text-transform: capitalize;
 }
 
 table {
   width: 100%;
-  border-collapse: collapse;
 }
-
+ 
 td, th {
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #4f4b4b;
   text-align: center;
   cursor: pointer;
   font-size: 18px;
-  background-color: #f9f9f9;
+  background-color: rgb(188, 188, 210);
 }
 
 td:hover {
-  background-color: #ddd;
+  background-color: #de3f3f;
 }
 
-#display_x {
+#display {
   background-color: #eee;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #d18e8e;
+}
+
+.footer{
+  text-decoration: none;
+  font-size: 14px; 
+  color: #555;
 }
